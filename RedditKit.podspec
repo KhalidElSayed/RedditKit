@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 1.1.0'
   s.dependency 'SSKeychain', '~> 0.1.4'
+  s.dependency 'SSDataKit', :git => 'https://github.com/rdougan/ssdatakit.git', :commit => '96525ea4dc2db72d883d14ecd13c7dfd61ccd935'
 end

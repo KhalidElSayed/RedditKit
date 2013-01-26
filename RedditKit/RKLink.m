@@ -23,8 +23,6 @@
 @dynamic score;
 @dynamic subreddit;
 
-@synthesize image;
-
 #pragma mark - SSManagedObject
 
 + (NSString *)entityName {

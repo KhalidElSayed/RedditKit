@@ -6,24 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		009DD31CCE244380BF1D4D9B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EE8FC777E7435D90E1BC35 /* libPods.a */; };
-		E1AD281F1676A005001A63B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13EB1EA16769E3400F02062 /* Foundation.framework */; };
-		E1DE62EA1676A17400B1C71F /* RedditKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AD281916769F9C001A63B2 /* RedditKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E1AD281C1676A005001A63B2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		BC5495F297B54E29B3AE7CDD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		D4EE8FC777E7435D90E1BC35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,20 +33,7 @@
 		E13EB17B16769A7A00F02062 /* Reddit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reddit.xcdatamodel; sourceTree = "<group>"; };
 		E13EB1EA16769E3400F02062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1AD281916769F9C001A63B2 /* RedditKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditKit.h; sourceTree = "<group>"; };
-		E1AD281E1676A005001A63B2 /* libRedditKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRedditKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		E1AD281B1676A005001A63B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1AD281F1676A005001A63B2 /* Foundation.framework in Frameworks */,
-				009DD31CCE244380BF1D4D9B /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E13EB0C01676943E00F02062 = {
@@ -81,7 +50,6 @@
 		E13EB0CC1676943E00F02062 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1AD281E1676A005001A63B2 /* libRedditKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,40 +118,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		E1DE62E91676A17000B1C71F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1DE62EA1676A17400B1C71F /* RedditKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		E1AD281D1676A005001A63B2 /* RedditKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1AD28271676A005001A63B2 /* Build configuration list for PBXNativeTarget "RedditKit" */;
-			buildPhases = (
-				E1AD281A1676A005001A63B2 /* Sources */,
-				E1AD281B1676A005001A63B2 /* Frameworks */,
-				E1AD281C1676A005001A63B2 /* CopyFiles */,
-				E1DE62E91676A17000B1C71F /* Headers */,
-				E1DE62EB1676A18A00B1C71F /* Prepare Framework */,
-				8B64841DFD4C41F580B23411 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RedditKit;
-			productName = RedditKit;
-			productReference = E1AD281E1676A005001A63B2 /* libRedditKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		E13EB0C21676943E00F02062 /* Project object */ = {
 			isa = PBXProject;
@@ -203,51 +137,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1AD281D1676A005001A63B2 /* RedditKit */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8B64841DFD4C41F580B23411 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		E1DE62EB1676A18A00B1C71F /* Prepare Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Prepare Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		E1AD281A1676A005001A63B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		E13EB0D71676943E00F02062 /* Debug */ = {
@@ -303,45 +195,6 @@
 			};
 			name = Release;
 		};
-		E1AD28281676A005001A63B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC5495F297B54E29B3AE7CDD /* Pods.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/RedditKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RedditKit/RedditKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
-			};
-			name = Debug;
-		};
-		E1AD28291676A005001A63B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC5495F297B54E29B3AE7CDD /* Pods.xcconfig */;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
-				DSTROOT = /tmp/RedditKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RedditKit/RedditKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				STRIP_STYLE = "non-global";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -350,15 +203,6 @@
 			buildConfigurations = (
 				E13EB0D71676943E00F02062 /* Debug */,
 				E13EB0D81676943E00F02062 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1AD28271676A005001A63B2 /* Build configuration list for PBXNativeTarget "RedditKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1AD28281676A005001A63B2 /* Debug */,
-				E1AD28291676A005001A63B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

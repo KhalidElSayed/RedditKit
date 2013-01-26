@@ -41,6 +41,4 @@ typedef NSInteger RKLinkType;
 @property (nonatomic, strong) RKSubreddit *subreddit;
 @property (assign) RKLinkType type;
 
-@property (nonatomic, strong) NSImage *image;
-
 @end
