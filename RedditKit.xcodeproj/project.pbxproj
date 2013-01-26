@@ -49,23 +49,6 @@
 		E13EB15A1676998B00F02062 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E13EB15B1676998B00F02062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E13EB17B16769A7A00F02062 /* Reddit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reddit.xcdatamodel; sourceTree = "<group>"; };
-		E13EB1A716769C0100F02062 /* NSManagedObjectContext+SSDataKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+SSDataKitAdditions.h"; path = "RedditKit/Vendor/SSDataKit/NSManagedObjectContext+SSDataKitAdditions.h"; sourceTree = "<group>"; };
-		E13EB1A816769C0100F02062 /* NSManagedObjectContext+SSDataKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+SSDataKitAdditions.m"; path = "RedditKit/Vendor/SSDataKit/NSManagedObjectContext+SSDataKitAdditions.m"; sourceTree = "<group>"; };
-		E13EB1A916769C0100F02062 /* SSDataKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSDataKit.h; path = RedditKit/Vendor/SSDataKit/SSDataKit.h; sourceTree = "<group>"; };
-		E13EB1AA16769C0100F02062 /* SSFilterableFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSFilterableFetchedResultsController.h; path = RedditKit/Vendor/SSDataKit/SSFilterableFetchedResultsController.h; sourceTree = "<group>"; };
-		E13EB1AB16769C0100F02062 /* SSFilterableFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSFilterableFetchedResultsController.m; path = RedditKit/Vendor/SSDataKit/SSFilterableFetchedResultsController.m; sourceTree = "<group>"; };
-		E13EB1AC16769C0100F02062 /* SSFilteredResultsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSFilteredResultsFilter.h; path = RedditKit/Vendor/SSDataKit/SSFilteredResultsFilter.h; sourceTree = "<group>"; };
-		E13EB1AD16769C0100F02062 /* SSFilteredResultsFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSFilteredResultsFilter.m; path = RedditKit/Vendor/SSDataKit/SSFilteredResultsFilter.m; sourceTree = "<group>"; };
-		E13EB1AE16769C0100F02062 /* SSFilteredResultsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSFilteredResultsSection.h; path = RedditKit/Vendor/SSDataKit/SSFilteredResultsSection.h; sourceTree = "<group>"; };
-		E13EB1AF16769C0100F02062 /* SSFilteredResultsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSFilteredResultsSection.m; path = RedditKit/Vendor/SSDataKit/SSFilteredResultsSection.m; sourceTree = "<group>"; };
-		E13EB1B016769C0100F02062 /* SSManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSManagedObject.h; path = RedditKit/Vendor/SSDataKit/SSManagedObject.h; sourceTree = "<group>"; };
-		E13EB1B116769C0100F02062 /* SSManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSManagedObject.m; path = RedditKit/Vendor/SSDataKit/SSManagedObject.m; sourceTree = "<group>"; };
-		E13EB1B216769C0100F02062 /* SSManagedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSManagedTableViewController.h; path = RedditKit/Vendor/SSDataKit/SSManagedTableViewController.h; sourceTree = "<group>"; };
-		E13EB1B316769C0100F02062 /* SSManagedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSManagedTableViewController.m; path = RedditKit/Vendor/SSDataKit/SSManagedTableViewController.m; sourceTree = "<group>"; };
-		E13EB1B416769C0100F02062 /* SSManagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSManagedViewController.h; path = RedditKit/Vendor/SSDataKit/SSManagedViewController.h; sourceTree = "<group>"; };
-		E13EB1B516769C0100F02062 /* SSManagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSManagedViewController.m; path = RedditKit/Vendor/SSDataKit/SSManagedViewController.m; sourceTree = "<group>"; };
-		E13EB1B616769C0100F02062 /* SSRemoteManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSRemoteManagedObject.h; path = RedditKit/Vendor/SSDataKit/SSRemoteManagedObject.h; sourceTree = "<group>"; };
-		E13EB1B716769C0100F02062 /* SSRemoteManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSRemoteManagedObject.m; path = RedditKit/Vendor/SSDataKit/SSRemoteManagedObject.m; sourceTree = "<group>"; };
 		E13EB1EA16769E3400F02062 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1AD281916769F9C001A63B2 /* RedditKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditKit.h; sourceTree = "<group>"; };
 		E1AD281E1676A005001A63B2 /* libRedditKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRedditKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,33 +144,8 @@
 		E13EB17D16769BD300F02062 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				E13EB17F16769BE300F02062 /* SSDataKit */,
 			);
 			name = Vendor;
-			sourceTree = "<group>";
-		};
-		E13EB17F16769BE300F02062 /* SSDataKit */ = {
-			isa = PBXGroup;
-			children = (
-				E13EB1A716769C0100F02062 /* NSManagedObjectContext+SSDataKitAdditions.h */,
-				E13EB1A816769C0100F02062 /* NSManagedObjectContext+SSDataKitAdditions.m */,
-				E13EB1A916769C0100F02062 /* SSDataKit.h */,
-				E13EB1AA16769C0100F02062 /* SSFilterableFetchedResultsController.h */,
-				E13EB1AB16769C0100F02062 /* SSFilterableFetchedResultsController.m */,
-				E13EB1AC16769C0100F02062 /* SSFilteredResultsFilter.h */,
-				E13EB1AD16769C0100F02062 /* SSFilteredResultsFilter.m */,
-				E13EB1AE16769C0100F02062 /* SSFilteredResultsSection.h */,
-				E13EB1AF16769C0100F02062 /* SSFilteredResultsSection.m */,
-				E13EB1B016769C0100F02062 /* SSManagedObject.h */,
-				E13EB1B116769C0100F02062 /* SSManagedObject.m */,
-				E13EB1B216769C0100F02062 /* SSManagedTableViewController.h */,
-				E13EB1B316769C0100F02062 /* SSManagedTableViewController.m */,
-				E13EB1B416769C0100F02062 /* SSManagedViewController.h */,
-				E13EB1B516769C0100F02062 /* SSManagedViewController.m */,
-				E13EB1B616769C0100F02062 /* SSRemoteManagedObject.h */,
-				E13EB1B716769C0100F02062 /* SSRemoteManagedObject.m */,
-			);
-			name = SSDataKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
