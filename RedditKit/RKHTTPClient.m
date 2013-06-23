@@ -78,9 +78,6 @@
 	return self;
 }
 
-- (void)dealloc {
-	dispatch_release(_callbackQueue);
-}
 
 #pragma mark - AFHTTPClient
 
